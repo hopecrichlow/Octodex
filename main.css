@@ -1,32 +1,34 @@
 .octodex{
+  max-width: 100%;
   margin: 50px;
   border: 2px solid black;
   padding: 50px;
   position: relative;
   display: inline-block;
-
+  float: left;
+  overflow: auto;
 }
 
 .octocat{ 
-  margin: 50px;
+  
   border-sizing: border-box;
   display: inline-block;
-  width: 400px;
-  height: 200px;
-  padding: 50px;
-  position: relative;
-  overflow: auto;
+  max-width: 33.33%
 
 }
 
 .octocat img{
+  border: 2px solid gray;
   border-sizing: border-box;
   float:left;
   display: inline-block;
+  overflow: auto;
+  position: relative;
 }
 
 .image-footer{
-  border: 1px solid black;
+  position: bottom right;
+  overflow: auto;
 }
 
 .image-number{
@@ -36,6 +38,6 @@
 }
 
 .authors{
-  display: inline-block;
+  
 }
 
