@@ -1,24 +1,41 @@
 .octodex{
+  margin: 50px;
+  border: 2px solid black;
+  padding: 50px;
+  position: relative;
+  display: inline-block;
 
 }
 
-.octocat{
-border: 2px solid black;
+.octocat{ 
+  margin: 50px;
+  border-sizing: border-box;
+  display: inline-block;
+  width: 400px;
+  height: 200px;
+  padding: 50px;
+  position: relative;
+  overflow: auto;
+
+}
+
+.octocat img{
+  border-sizing: border-box;
+  float:left;
+  display: inline-block;
 }
 
 .image-footer{
-border: 1px solid black;
+  border: 1px solid black;
 }
 
 .image-number{
-
 }
 
 .image-caption{
-
 }
 
 .authors{
-
+  display: inline-block;
 }
 
